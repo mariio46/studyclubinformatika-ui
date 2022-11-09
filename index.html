@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="public/css/output.css" />
+
+    <!-- Custom Fonts -->
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="icon" href="public/img/Sci-Logo.png" type="image/x-icon" />
+    <title>Study Club Informatika</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="nav" class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="py-[11px]">
+            <img src="public/img/sci-logo-full.png" alt="Brand" class="inline w-10 h-10 xl:w-[55px] xl:h-[55px]" />
+            <a href="#home" class="font-bold text-base">Study Club <span class="text-primary">Informatika</span></a>
+          </div>
+          <div class="flex items-center">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line origin-top-left"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group flex justify-end">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 lg:mx-4 xl:mx-6 lg:group-hover:font-bold lg:font-medium group-hover:text-primary font-bold">Home</a>
+                </li>
+                <li class="group flex justify-end">
+                  <a href="#about" class="text-base text-dark py-2 mx-8 lg:mx-4 xl:mx-6 lg:group-hover:font-bold lg:font-medium group-hover:text-primary font-bold">About</a>
+                </li>
+                <li class="group flex justify-end">
+                  <a href="#lessons" class="text-base text-dark py-2 mx-8 lg:mx-4 xl:mx-6 lg:group-hover:font-bold lg:font-medium group-hover:text-primary font-bold">Lessons</a>
+                </li>
+                <li class="group flex justify-end">
+                  <a href="#gallery" class="text-base text-dark py-2 mx-8 lg:mx-4 xl:mx-6 lg:group-hover:font-bold lg:font-medium group-hover:text-primary font-bold">Gallery</a>
+                </li>
+                <li class="group flex justify-end">
+                  <a href="#contact" class="text-base text-dark py-2 mx-8 lg:mx-4 xl:mx-6 lg:group-hover:font-bold lg:font-medium group-hover:text-primary font-bold">Contact</a>
+                </li>
+                <li class="flex justify-end">
+                  <a href="#" class="text-base text-white py-2 mx-8 lg:mx-4 xl:mx-6 font-bold bg-btnGreen px-4 rounded-md hover:bg-green-500">Sign-Up</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-14 sm:pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center py-5 sm:w-1/2">
+            <h1 class="text-3xl leading-10 font-bold text-dark max-w-xs sm:max-w-full lg:max-w-[555px] lg:text-5xl xl:max-w-[650px] xl:text-6xl 2xl:text-[69px]">Seatap <span class="text-primary">Belajar Berkarya</span> Bersama.</h1>
+            <p class="text-secondary font-semibold my-[10px] text-xs leading-relaxed max-w-xs sm:max-w-full mb-7 lg:max-w-[350px] lg:text-md xl:leading-6 xl:max-w-md xl:text-sm">
+              Mari bergabung bersama kami untuk meningkatkan skill anda di bidang <span class="uppercase font-bold">Informatika!</span>
+            </p>
+            <a href="#" class="text-base px-6 py-3 text-white bg-btnGreen rounded-md font-bold hover:bg-green-500 lg:text-lg lg:px-8">Join Now</a>
+          </div>
+          <div class="w-full sm:flex sm:justify-end sm:w-1/2 py-5">
+            <div class="">
+              <img src="public/img/sci-maskot-lg.png" alt="maskot" class="mx-auto max-w-xs sm:max-w-max sm:w-full md:w-72 lg:w-96 xl:w-[500px]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="pt-36 pb-20">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-md font-bold mb-8 text-dark lg:text-lg">TENTANG KAMI</h4>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full mb-10 lg:w-1/2">
+            <h3 class="text-lg font-semibold text-dark">Halo, Kami</h3>
+            <h2 class="text-2xl font-bold mb-1 text-primary lg:text-3xl">Study Club Informatika</h2>
+            <p class="font-medium text-secondary text-sm mb-2 max-w-lg sm:max-w-full lg:max-w-md xl:max-w-xl text-justify">
+              atau yang biasa kalian dengar dengan sebutan <span class="font-bold text-primary">SCI</span>, didirikan pada 31 Mei 2009 yang berlokasi di kota Parepare, Sulawesi Selatan. Pada awalnya SCI merupakan
+              <span class="font-bold text-primary">Kelompok Belajar</span> yang berada dibawah naungan Universitas Muhammadiyah Parepare.
+            </p>
+            <p class="font-medium text-secondary text-sm max-w-lg sm:max-w-full lg:max-w-md xl:max-w-xl text-justify">
+              Setelah beberapa saat SCI memutuskan untuk keluar dari naungan Universitas dikarenakan ada beberapa keputusan dan konflik yang tidak terhindarkan. Kini SCI menjadi
+              <span class="font-bold text-primary">Organisasi</span> independen dan telah menghasilkan +1000 kader yang kompeten dibidang teknologi.
+            </p>
+          </div>
+          <div class="w-full mb-10 lg:w-1/2 sm:pt-[27px] lg:pl-4">
+            <h3 class="font-bold text-xl text-dark mb-[10px] lg:text-2xl">Mau tau lebih banyak..?</h3>
+            <p class="font-medium text-secondary text-sm max-w-xl text-justify">Kunjungi kami dibawah ini untuk mengetahui lebih banyak tentang kami dan jangan ragu untuk menghubungi kami jika ada pertanyaan.</p>
+            <!-- icons -->
+            <div class="flex items-center mt-2">
+              <!-- IG -->
+              <a
+                href="https://www.instagram.com/studyclubinformatika/"
+                target="_blank"
+                class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+              >
+                <svg role="img" viewBox="0 0 24 24" class="fill-current" xmlns="http://www.w3.org/2000/svg" width="25">
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- /IG -->
+              <!-- TikTok -->
+              <a
+                href="https://www.tiktok.com/@studyclubinformatika"
+                target="_blank"
+                class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+              >
+                <svg class="fill-current" role="img" viewBox="0 0 24 24" width="25" xmlns="http://www.w3.org/2000/svg">
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+              <!-- /TikTok -->
+              <!-- FB -->
+              <a
+                href="https://www.facebook.com/studyclubinformatika.sci"
+                target="_blank"
+                class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+              >
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24">
+                  <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                </svg>
+              </a>
+              <!-- /FB -->
+              <!-- YT -->
+              <a
+                href="https://www.youtube.com/channel/UCERvBRdLPU6drUXgtFWl4pA"
+                target="_blank"
+                class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+              >
+                <svg class="fill-current" role="img" viewBox="0 0 24 24" width="25" xmlns="http://www.w3.org/2000/svg">
+                  <title>YouTube</title>
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </a>
+              <!-- /YT -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /About Section -->
+
+    <!-- Lessons Section -->
+    <section id="lessons" class="pt-36 pb-32 bg-third">
+      <div class="container">
+        <div class="w-full">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h1 class="text-dark text-2xl uppercase font-bold mb-2 xl:text-3xl">our lessons</h1>
+            <p class="text-xs text-secondary mb-10 lg:text-base">Berikut adalah pembelajaran yang kami tawarkan jika kalian bergabung bersama kami</p>
+          </div>
+
+          <div class="flex flex-wrap">
+            <div class="w-full px-2 sm:w-1/2 xl:w-1/4 sm:hover:scale-105 transition duration-300 ease-in-out">
+              <div class="bg-white rounded-md shadow-xl overflow-hidden mb-10">
+                <img src="public/img/lessons/Programming.jpg" alt="Programming" class="w-full" />
+                <div class="py-8 px-6">
+                  <h1 class="text-xl font-bold mb-3 text-dark">Programming</h1>
+                  <p class="text-[10px] text-secondary">Pada pembelajaran ini akan membahas banyak tentan programming seperti Web Programming, Dekstop, dan Mobile...</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-2 sm:w-1/2 xl:w-1/4 sm:hover:scale-105 transition duration-300 ease-in-out">
+              <div class="bg-white rounded-md shadow-xl overflow-hidden mb-10">
+                <img src="public/img/lessons/Desain Grafis.jpg" alt="Desain Grafis" class="w-full" />
+                <div class="py-8 px-6">
+                  <h1 class="text-xl font-bold mb-3 text-dark">Desain Grafis</h1>
+                  <p class="text-[10px] text-secondary">Pembelajaran desain grafis akan memperkenalkan kalian beberapa software seperti Corel, Adobe Illustrator, dan banyak lagi...</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-2 sm:w-1/2 xl:w-1/4 sm:hover:scale-105 transition duration-300 ease-in-out">
+              <div class="bg-white rounded-md shadow-xl overflow-hidden mb-10">
+                <img src="public/img/lessons/Multimedia.jpg" alt="Multimedia" class="w-full" />
+                <div class="py-8 px-6">
+                  <h1 class="text-xl font-bold mb-3 text-dark">Multimedia</h1>
+                  <p class="text-[10px] text-secondary">Pembelajaran multimedia akan memperkenalkan berbagai software seperti Google Docs, Microsoft Office..</p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-2 sm:w-1/2 xl:w-1/4 sm:hover:scale-105 transition duration-300 ease-in-out">
+              <div class="bg-white rounded-md shadow-xl overflow-hidden mb-10">
+                <img src="public/img/lessons/Organisasi.jpg" alt="Organisasi" class="w-full" />
+                <div class="py-8 px-6">
+                  <h1 class="text-xl font-bold mb-3 text-dark">Organisasi</h1>
+                  <p class="text-[10px] text-secondary">Pada pembelajaran ini akan membahas semua tentang keorganisasian seperti Kepemimpinan, manajemen organisasi, dan retorika.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Lessons Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="pt-36 pb-32">
+      <div class="container">
+        <div class="p-2 grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
+          <div class="grid-card group flex items-end md:row-start-1 md:col-start-2">
+            <div class="grid-card-img bg-[url('/public/img/gallery/2.0.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Pengurus Periode 2022/2023</span></div>
+          </div>
+          <div class="grid-card group flex items-end md:row-start-2 md:col-start-2">
+            <div class="w-full h-full bg-cover bg-[center_bottom_-13rem] absolute group-hover:scale-125 transition-all duration-500 bg-[url('/public/img/gallery/1.3.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Ketua Umum</span></div>
+          </div>
+          <div class="grid-card group flex items-end md:row-start-2 md:col-start-3">
+            <div class="w-full h-full bg-cover bg-[center_bottom_-10rem] absolute group-hover:scale-125 transition-all duration-500 bg-[url('/public/img/gallery/1.5.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Sekretaris Umum</span></div>
+          </div>
+          <div class="grid-card group flex items-end md:row-start-2 md:col-start-1">
+            <div class="w-full h-full bg-cover bg-[center_bottom_-13rem] absolute group-hover:scale-125 transition-all duration-500 bg-[url('/public/img/gallery/1.4.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Bendahara Umum</span></div>
+          </div>
+          <div class="grid-card group flex items-end">
+            <div class="grid-card-img bg-[url('/public/img/gallery/1.9.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Bidang Kader</span></div>
+          </div>
+          <div class="grid-card group flex items-end">
+            <div class="w-full h-full bg-cover bg-[center_bottom_-13rem] absolute group-hover:scale-125 transition-all duration-500 bg-[url('/public/img/gallery/1.6.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Bidang Keilmuan</span></div>
+          </div>
+          <div class="grid-card group flex items-end">
+            <div class="w-full h-full bg-cover bg-[center_bottom_-13rem] absolute group-hover:scale-125 transition-all duration-500 bg-[url('/public/img/gallery/1.8.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Bidang Kesekretariatan</span></div>
+          </div>
+          <div class="grid-card group flex items-end">
+            <div class="w-full h-full bg-cover bg-[center_bottom_-13rem] absolute group-hover:scale-125 transition-all duration-500 bg-[url('/public/img/gallery/1.7.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Bidang Humas</span></div>
+          </div>
+          <div class="grid-card group flex items-end md:row-start-3 md:col-start-2">
+            <div class="grid-card-img bg-[url('/public/img/gallery/2.1.jpg')]"></div>
+            <div class="w-full flex justify-center text-white z-50 font-bold text-lg bg-black bg-opacity-50 group-hover:hidden mb-10"><span class="">Pengurus Periode 2022/2023</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="pt-0 lg:pt-20 pb-32">
+      <div class="container">
+        <div class="w-full text-center mb-10 max-w-xl mx-auto">
+          <h3 class="text-lg font-bold text-primary uppercase lg:text-xl">kontak</h3>
+          <h1 class="text-3xl font-bold text-dark uppercase my-3">hubungi kami</h1>
+          <p class="text-[10px] font-medium text-secondary sm:text-sm">Jangan ragu jika ada masalah, pertanyaan, kritik, dan saran. silahkan hubungi kami dengan mengisi form dibawah ini, kami akan membantu anda secepat mungkin</p>
+        </div>
+        <form>
+          <div class="w-full lg:w-2/3 mx-auto">
+            <div class="w-full px-2 mb-4">
+              <label for="name" class="text-xs text-primary font-bold xl:text-sm">Nama</label>
+              <input type="text" id="name" class="w-full bg-slate-200 text-dark rounded-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary lg:border-[1.5px] py-2 px-2 text-sm" />
+            </div>
+            <div class="w-full px-2 mb-4">
+              <label for="email" class="text-xs text-primary font-bold xl:text-sm">Email</label>
+              <input type="email" id="email" class="w-full bg-slate-200 text-dark rounded-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary lg:border-[1.5px] py-2 px-2 text-sm" />
+            </div>
+            <div class="w-full px-2 mb-4">
+              <label for="pesan" class="text-xs text-primary font-bold xl:text-sm">Pesan </label>
+              <textarea type="text" id="pesan" class="w-full bg-slate-200 text-dark rounded-sm focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary lg:border-[1.5px] py-2 px-2 text-sm h-32"></textarea>
+            </div>
+            <div class="w-full px-2 flex justify-end group">
+              <button class="text-sm bg-primary px-7 py-2 font-bold text-white rounded-md group-hover:bg-green-500">Kirim</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="bg-slate-700 pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-2 mb-12 text-slate-300 font-medium md:w-1/3 2xl:pl-14">
+            <h2 class="text-xl font-bold text-white mb-2 md:text-lg lg:text-xl">Study Club Informatika</h2>
+            <h3 class="mb-1 text-lg font-bold">Hubungi Kami</h3>
+            <p class="mb-1 text-[12px]">studyclubinformatika305@gmail.com</p>
+            <p class="mb-1 text-[12px]">BTN SAO ASRI Blok E2/25, Lapadde, Kec.Ujung, Kota Parepare</p>
+          </div>
+          <div class="w-full px-2 mb-12 md:w-1/3 2xl:pl-14">
+            <h3 class="text-lg text-white font-semibold mb-4">Lessons</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#" class="text-base inline-block hover:text-primary mb-2">Programming</a>
+              </li>
+              <li>
+                <a href="#" class="text-base inline-block hover:text-primary mb-2">Desain Grafis</a>
+              </li>
+              <li>
+                <a href="#" class="text-base inline-block hover:text-primary mb-2">Multimedia</a>
+              </li>
+              <li>
+                <a href="#" class="text-base inline-block hover:text-primary mb-2">Organisasi</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-2 mb-12 md:w-1/3 2xl:pl-14">
+            <h3 class="text-lg text-white font-semibold mb-4">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#home" class="text-base inline-block hover:text-primary mb-2">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="text-base inline-block hover:text-primary mb-2">About</a>
+              </li>
+              <li>
+                <a href="#lessons" class="text-base inline-block hover:text-primary mb-2">Lessons</a>
+              </li>
+              <li>
+                <a href="#gallery" class="text-base inline-block hover:text-primary mb-2">Gallery</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-base inline-block hover:text-primary mb-2">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full border-t border-slate-500">
+          <!-- Icons -->
+          <div class="flex items-center my-5 justify-center">
+            <!-- IG -->
+            <a
+              href="https://www.instagram.com/studyclubinformatika/"
+              target="_blank"
+              class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+            >
+              <svg role="img" viewBox="0 0 24 24" class="fill-current" xmlns="http://www.w3.org/2000/svg" width="25">
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+            <!-- /IG -->
+            <!-- TikTok -->
+            <a
+              href="https://www.tiktok.com/@studyclubinformatika"
+              target="_blank"
+              class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+            >
+              <svg class="fill-current" role="img" viewBox="0 0 24 24" width="25" xmlns="http://www.w3.org/2000/svg">
+                <title>TikTok</title>
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                />
+              </svg>
+            </a>
+            <!-- /TikTok -->
+            <!-- FB -->
+            <a
+              href="https://www.facebook.com/studyclubinformatika.sci"
+              target="_blank"
+              class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+            >
+              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 24 24">
+                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+              </svg>
+            </a>
+            <!-- /FB -->
+            <!-- YT -->
+            <a
+              href="https://www.youtube.com/channel/UCERvBRdLPU6drUXgtFWl4pA"
+              target="_blank"
+              class="flex w-10 h-10 mr-3 rounded-full border-slate-500 border-2 items-center justify-center text-slate-500 hover:border-btnGreen hover:bg-btnGreen hover:text-white"
+            >
+              <svg class="fill-current" role="img" viewBox="0 0 24 24" width="25" xmlns="http://www.w3.org/2000/svg">
+                <title>YouTube</title>
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                />
+              </svg>
+            </a>
+            <!-- /YT -->
+          </div>
+          <!-- /Icons -->
+          <p class="text-[12px] text-slate-300 text-center xl:text-sm">Copyright By <a href="https://www.instagram.com/mario46_/" target="_blank" class="font-semibold hover:text-primary">@mario46_</a> All Right Reserved</p>
+          <p class="text-[12px] text-slate-300 text-center xl:text-sm">Build With <a href="https://tailwindcss.com/" target="_blank" class="font-semibold hover:text-sky-500">TailwindCSS</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer Section -->
+
+    <!-- My JavaScript -->
+    <script src="js/output.js"></script>
+  </body>
+</html>
